@@ -2,7 +2,7 @@
 UI & UX Designer Website, converted from PSD ho HTML. 
 With modals and state messages. 
 State Messages showing error or successful action after submiting a form. 
-Adaptive code. With laptop, tablet and phone version.
+Adaptive code with laptop, tablet and phone version.
 With Animations, Works-Filter by category, Slider made with Slick JS and Mobile Nav-Menu. 
 ================= // =======================
 Things, which I couldn't fix:
