@@ -892,34 +892,6 @@ body.cursor-close {
       -webkit-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0); }
-
-@-webkit-keyframes btn-show {
-  100% {
-    opacity: 1;
-    .btn--intro:first-of-type {
-      transform: translate3d(100%, 0, 0);
-      -webkit-transform: translate3d(100%, 0, 0);
-      -ms-transform: translate3d(100%, 0, 0);
-      -o-transform: translate3d(100%, 0, 0); }
-    .btn--intro:last-of-type {
-      transform: translate3d(0, 0, 0);
-      -webkit-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0); } } }
-
-@keyframes btn-show {
-  100% {
-    opacity: 1;
-    .btn--intro:first-of-type {
-      transform: translate3d(100%, 0, 0);
-      -webkit-transform: translate3d(100%, 0, 0);
-      -ms-transform: translate3d(100%, 0, 0);
-      -o-transform: translate3d(100%, 0, 0); }
-    .btn--intro:last-of-type {
-      transform: translate3d(0, 0, 0);
-      -webkit-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0); } } }
   .btn--sm {
     padding: .7em 1.7em;
     min-width: 0;
@@ -2455,7 +2427,7 @@ body.cursor-close {
 .progress-bar {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
+  -ms-grid-columns: repeat(2, auto);
   grid-template-columns: repeat(2, auto);
   grid-auto-rows: repeat(2, auto);
   grid-gap: .5em 1em;
@@ -2465,7 +2437,7 @@ body.cursor-close {
   align-items: center; }
   @media screen and (max-width: 767px) {
     .progress-bar {
-      -ms-grid-columns: (1fr)[2];
+      -ms-grid-columns: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
       grid-auto-rows: repeat(2, 1fr);
       margin-bottom: 0; } }
@@ -2511,7 +2483,7 @@ body.cursor-close {
 .awards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
+  -ms-grid-columns: repeat(2, auto);
   grid-template-columns: repeat(2, auto);
   grid-auto-rows: repeat(2, auto);
   grid-gap: 2em 1em; }
